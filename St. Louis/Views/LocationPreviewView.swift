@@ -1,6 +1,6 @@
 //
 //  LocationPreviewView.swift
-//  SwiftfulMapApp
+//  
 //
 //  Created by Bruke on 5/14/22.
 //

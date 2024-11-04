@@ -1,6 +1,6 @@
 //
 //  Location.swift
-//  SwiftfulMapApp
+//  
 //
 //  Created by Bruke on 5/13/22.
 //

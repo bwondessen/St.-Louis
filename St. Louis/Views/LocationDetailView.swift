@@ -1,6 +1,6 @@
 //
 //  LocationDetailView.swift
-//  SwiftfulMapApp
+//  
 //
 //  Created by Bruke on 5/14/22.
 //
@@ -51,12 +51,12 @@ extension LocationDetailView {
                 Image(imageName)
                     .resizable()
                     .scaledToFill()
-                    .frame(width: UIDevice.current.userInterfaceIdiom == .pad ?  nil : UIScreen.main.bounds.width)
+//                    .frame(width: UIDevice.current.userInterfaceIdiom == .pad ?  nil : UIScreen.main.bounds.width)
                     .clipped()
             }
         }
         .frame(height: 500)
-        .tabViewStyle(.page)
+        .tabViewStyle(.automatic)
     }
     
     private var titleSection: some View {
