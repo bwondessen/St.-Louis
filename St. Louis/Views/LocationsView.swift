@@ -45,20 +45,22 @@ extension LocationsView {
             Button {
                 vm.toggleLocationsList()
             } label: {
-                Text(vm.mapLocation.name + ", " + vm.mapLocation.cityName)
-                    .font(.title2)
-                    .fontWeight(.black)
-                    .foregroundColor(.primary)
-                    .frame(height: 55)
-                    .frame(maxWidth: .infinity)
-                    .animation(.none, value: vm.mapLocation)
-                    .overlay(alignment: .leading) {
-                        Image(systemName: "arrow.down")
-                            .font(.headline)
-                            .foregroundColor(.primary)
-                            .padding()
-                            .rotationEffect(Angle(degrees: vm.showLocationsList ? 180 : 0))
-                    }
+                HStack {
+                    Image(systemName: "arrow.down")
+                        .font(.headline)
+                        .foregroundColor(.primary)
+                        .rotationEffect(Angle(degrees: vm.showLocationsList ? 180 : 0))
+                    
+                    Text(vm.mapLocation.name + ", " + vm.mapLocation.cityName)
+                        .font(.title2)
+                        .fontWeight(.black)
+                        .foregroundColor(.primary)
+                        .frame(height: 55)
+                        .frame(maxWidth: .infinity)
+                        .animation(.none, value: vm.mapLocation)
+                }
+                .padding(.horizontal)
+                .padding(.vertical, 3.5)
             }
             
             
