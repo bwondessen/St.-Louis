@@ -14,7 +14,7 @@ class LocationsDataService {
         Location(
             name: "The Gateway Arch",
             cityName: "St. Louis",
-            coordinates: CLLocationCoordinate2D(latitude: 38.6251, longitude: 90.1868),
+            coordinates: CLLocationCoordinate2D(latitude: 38.624691, longitude: -90.184776),
             description: "The Gateway Arch is a 630-foot-tall (192 m) monument in St. Louis, Missouri, United States. Clad in stainless steel and built in the form of a weighted catenary arch,[5] it is the world's tallest arch[4] and Missouri's tallest accessible building.",
             imageNames: [
                 "gatewayarch-1",
@@ -25,7 +25,7 @@ class LocationsDataService {
         Location(
             name: "Forest Park",
             cityName: "St. Louis",
-            coordinates: CLLocationCoordinate2D(latitude: 38.6445, longitude: 90.2831),
+            coordinates: CLLocationCoordinate2D(latitude: 38.638901, longitude: -90.284599),
             description: "Forest Park is a public park in western St. Louis, Missouri. It is a prominent civic center and covers 1,326 acres (5.37 km2).[1] Opened in 1876, more than a decade after its proposal, the park has hosted several significant events, including the Louisiana Purchase Exposition of 1904 and the 1904 Summer Olympics.",
             imageNames: [
                 "forestpark-1",
@@ -36,7 +36,7 @@ class LocationsDataService {
         Location(
             name: "Saint Louis Zoo",
             cityName: "St. Louis",
-            coordinates: CLLocationCoordinate2D(latitude: 38.6349, longitude: 90.2910),
+            coordinates: CLLocationCoordinate2D(latitude: 38.6355, longitude: -90.2905),
             description: "The Saint Louis Zoo, officially known as the Saint Louis Zoological Park, is a zoo in Forest Park, St. Louis, Missouri. It is recognized as a leading zoo in animal management, research, conservation, and education. The zoo is accredited by the Association of Zoos and Aquariums.",
             imageNames: [
                 "saintlouiszoo-1",
@@ -47,7 +47,7 @@ class LocationsDataService {
         Location(
             name: "City Museum",
             cityName: "St. Louis",
-            coordinates: CLLocationCoordinate2D(latitude: 38.6337, longitude: 90.2007),
+            coordinates: CLLocationCoordinate2D(latitude: 38.639271, longitude: -90.224319),
             description: "City Museum is a museum whose exhibits consist largely of repurposed architectural and industrial objects, housed in the former International Shoe building in the Washington Avenue Loft District of St. Louis, Missouri, United States. Opened in October 1997, the museum attracted more than 700,000 visitors in 2010.",
             imageNames: [
                 "citymuseum-1",
@@ -58,7 +58,7 @@ class LocationsDataService {
         Location(
             name: "Missouri Botanical Garden",
             cityName: "St. Louis",
-            coordinates: CLLocationCoordinate2D(latitude: 38.6128, longitude: 90.2594),
+            coordinates: CLLocationCoordinate2D(latitude: 38.616169, longitude: -90.250587),
             description: "The Missouri Botanical Garden is a botanical garden located at 4344 Shaw Boulevard in St. Louis, Missouri. It is also known informally as Shaw's Garden for founder and philanthropist Henry Shaw. Its herbarium, with more than 6.6 million specimens,[3] is the second largest in North America, behind that of the New York Botanical Garden.",
             imageNames: [
                 "missouribotanicalgarden-1",
@@ -69,7 +69,7 @@ class LocationsDataService {
         Location(
             name: "Saint Louis Art Museum",
             cityName: "St. Louis",
-            coordinates: CLLocationCoordinate2D(latitude: 38.6393, longitude: 90.2945),
+            coordinates: CLLocationCoordinate2D(latitude: 38.639709, longitude: -90.294212),
             description: "The Saint Louis Art Museum is one of the principal U.S. art museums, with paintings, sculptures, cultural objects, and ancient masterpieces from all corners of the world. Its three-story building stands in Forest Park in St. Louis, Missouri, where it is visited by up to a half million people every year.",
             imageNames: [
                 "saintlouisartmuseum-1",
@@ -80,7 +80,7 @@ class LocationsDataService {
         Location(
             name: "Saint Louis Science Center",
             cityName: "St. Louis",
-            coordinates: CLLocationCoordinate2D(latitude: 38.6290, longitude: 90.2704),
+            coordinates: CLLocationCoordinate2D(latitude: 38.628399, longitude: -90.270607),
             description: "The Saint Louis Science Center, founded as a planetarium in 1963, is a collection of buildings including a science museum and planetarium in St. Louis, Missouri, on the southeastern corner of Forest Park.",
             imageNames: [
                 "saintlouissciencecenter-1",
@@ -91,7 +91,7 @@ class LocationsDataService {
         Location(
             name: "Gateway Arch National Park",
             cityName: "St. Louis",
-            coordinates: CLLocationCoordinate2D(latitude: 38.6249, longitude: 90.1859),
+            coordinates: CLLocationCoordinate2D(latitude: 38.629921, longitude: -90.187737),
             description: "Gateway Arch National Park is an American national park located in St. Louis, Missouri, near the starting point of the Lewis and Clark Expedition.",
             imageNames: [
                 "gatewayarchpark-1",
@@ -102,7 +102,7 @@ class LocationsDataService {
         Location(
             name: "Cathedral Basilica of Saint Louis",
             cityName: "St. Louis",
-            coordinates: CLLocationCoordinate2D(latitude: 38.6425, longitude: 90.2547),
+            coordinates: CLLocationCoordinate2D(latitude: 38.642026, longitude: -90.255324),
             description: "The Cathedral Basilica of Saint Louis, also known as the Saint Louis Cathedral, is a cathedral of the Roman Catholic Church located in the Central West End neighborhood of St. Louis, Missouri.",
             imageNames: [
                 "cathedral-1",
@@ -113,7 +113,7 @@ class LocationsDataService {
         Location(
             name: "Grant's Farm",
             cityName: "St. Louis",
-            coordinates: CLLocationCoordinate2D(latitude: 38.5510, longitude: 90.3534),
+            coordinates: CLLocationCoordinate2D(latitude: 38.5510353, longitude: -90.3543129),
             description: "Grant's Farm is a historic farm, and long-standing landmark in Grantwood Village, Missouri, built by Ulysses S. Grant on land given to him and his wife by his father in law Frederick Fayette Dent shortly after they became married in 1848. It has also served as a residence of various members of the Busch family.",
             imageNames: [
                 "grantsfarm-1",
@@ -124,7 +124,7 @@ class LocationsDataService {
         Location(
             name: "Tower Grove Park",
             cityName: "St. Louis",
-            coordinates: CLLocationCoordinate2D(latitude: 38.6062, longitude: 90.2542),
+            coordinates: CLLocationCoordinate2D(latitude: 38.6077277, longitude: -90.2565929),
             description: "Tower Grove Park is a municipal park in St. Louis, Missouri. Located on the south side of the city, the elongated 289-acre park extends 1.6 miles from Kingshighway Boulevard east to Grand Boulevard.",
             imageNames: [
                 "towergrovepark-1",
